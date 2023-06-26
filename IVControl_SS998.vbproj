@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82E0C7F7-1CBA-4C41-BCE4-2751AA41BF63}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IVControl_SS998.My.MyApplication</StartupObject>
+    <RootNamespace>IVControl_SS998</RootNamespace>
+    <AssemblyName>IVControl_SS998</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\VS2022\IVControl_SS998\PulishVS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IVControl_SS998.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IVControl_SS998.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gemstone_jewel_jewelry_crystal_gem_diamond_asset_icon_254028.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A2E3D0F1665F1FFAA4900A1FBB7233F04C461CCC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>IVControl_SS998_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MdiTabControl">
+      <HintPath>..\..\Users\Non-PC\Downloads\MdiTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Ribbon, Version=2.0.0.0, Culture=neutral, PublicKeyToken=928736e248aa81f9, processorArchitecture=MSIL">
+      <HintPath>packages\RibbonWinForms.5.0.1.1\lib\net472\System.Windows.Forms.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ETCModule.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SQLControl.vb" />
+    <Compile Include="SubForm\AddProduct.Designer.vb">
+      <DependentUpon>AddProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\AddProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormCheckData.Designer.vb">
+      <DependentUpon>FormCheckData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormCheckData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CreateProduct.Designer.vb">
+      <DependentUpon>CreateProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CreateProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormHome.Designer.vb">
+      <DependentUpon>FormHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormMenu.Designer.vb">
+      <DependentUpon>FormMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormNoti.Designer.vb">
+      <DependentUpon>FormNoti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormNoti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormProduct.Designer.vb">
+      <DependentUpon>FormProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormReport.Designer.vb">
+      <DependentUpon>FormReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormSell.Designer.vb">
+      <DependentUpon>FormSell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormSell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormSetting.Designer.vb">
+      <DependentUpon>FormSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\ReportForm\CR\CRProductList.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRProductList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\ReportForm\CR\CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\ReportForm\ProductList.Designer.vb">
+      <DependentUpon>ProductList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\ReportForm\ProductList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\ReportForm\SellHistory.Designer.vb">
+      <DependentUpon>SellHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\ReportForm\SellHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\UpdateProduct.Designer.vb">
+      <DependentUpon>UpdateProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\UpdateProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\AddProduct.resx">
+      <DependentUpon>AddProduct.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormCheckData.resx">
+      <DependentUpon>FormCheckData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CreateProduct.resx">
+      <DependentUpon>CreateProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormHome.resx">
+      <DependentUpon>FormHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormMenu.resx">
+      <DependentUpon>FormMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormProduct.resx">
+      <DependentUpon>FormProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormReport.resx">
+      <DependentUpon>FormReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormSell.resx">
+      <DependentUpon>FormSell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ReportForm\CR\CRProductList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRProductList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ReportForm\CR\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ReportForm\ProductList.resx">
+      <DependentUpon>ProductList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ReportForm\SellHistory.resx">
+      <DependentUpon>SellHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\UpdateProduct.resx">
+      <DependentUpon>UpdateProduct.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IVControl_SS998_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\program.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0001_Cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0001_Cart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0001_Cart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0008_Tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0029_Mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0021_Parcel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0027_Sun-Glasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\program1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0019_Open-Sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0019_Open-Sign1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON_0013_Sale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No-Image-Placeholder.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gemstone_jewel_jewelry_crystal_gem_diamond_asset_icon_254028.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
